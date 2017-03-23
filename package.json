@@ -1,0 +1,64 @@
+{
+  "name": "stylelint-config-gw",
+  "description": "A shareable Stylelint configuration that I use for my JavaScript frontend projects",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Gunnar Wrobel",
+    "email": "p@rdus.de"
+  },
+  "bugs": {
+    "url": "https://github.com/wrobel/stylelint-config-gw/issues"
+  },
+  "homepage": "https://github.com/wrobel/stylelint-config-gw",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wrobel/stylelint-config-gw.git"
+  },
+  "engines": {
+    "node": "~6.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run test && npm pack",
+    "lint": "eslint .",
+    "test:unit": "tape test/*.js",
+    "test": "npm run lint && npm run test:unit"
+  },
+  "keywords": [
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "config",
+    "hint",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "style",
+    "style checker",
+    "style linter",
+    "stylint",
+    "stylint-config",
+    "verify"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.13.1",
+    "eslint-config-gw": "^1.0.2",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint-plugin-react": "^6.9.0",
+    "stylelint": "^7.2.0",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-config-css-modules": "^0.1.0",
+    "tape": "^4.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=7.0.0"
+  }
+}
