@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-gw",
   "description": "A shareable Stylelint configuration that I use for my JavaScript frontend projects",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": {
     "name": "Gunnar Wrobel",
